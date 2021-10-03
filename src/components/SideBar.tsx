@@ -13,7 +13,7 @@ interface GenreResponseProps {
 
 export function SideBar() {
 
-  const {selectedGenreId, setSelectedGenreId} = useContext(SelectedGenreContext)
+  const { selectedGenreId, setSelectedGenreId } = useContext(SelectedGenreContext)
   
   const [genres, setGenres] = useState<GenreResponseProps[]>([]);
   
